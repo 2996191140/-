@@ -1,4 +1,49 @@
-<title>曹植沛（xiaocao.cn）</title> 
+<html>
+<head>
+  <style>
+  td {
+    height: 6em;
+    width: 9em;
+    text-align: center;
+    box-shadow: 3px 3px 2px 2px #08777a;
+  }
+  .cell {
+    height: 6em;
+    width: 9em;
+  }
+
+  .cell > .detail {
+    display: none;
+  }
+
+  .cell > .detail.open {
+    display: block;
+    position: absolute;
+    height: 8em;
+    width: 11em;
+    background-color: rgb(19, 84, 128);
+  }
+
+  td.main-diag {
+    font-weight: bold;
+  }
+
+  td.back-diag {
+    font-style: italic;
+  }
+  td:hover {
+    position: relative;
+    top:-2px;
+    left: 2px;
+
+  }
+
+  
+
+  </style>
+</head>
+<title>曹植沛（xiaocao.cn）</title>
+<boday>
 <table border="1">
 <caption>我的课程表</caption>
 <tr>
@@ -47,3 +92,5 @@
 </tr>
 
 </table>
+</boday>
+</html>
