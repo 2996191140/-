@@ -1,15 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <style>
-  td {
-    height: 6em;
-    width: 9em;
+<meta charset="utf-8"> 
+<title>曹植沛（xiaocao.cn）</title>
+<style>
+    td {
+    height: 3em;
+    width: 3em;
     text-align: center;
-    box-shadow: 3px 3px 2px 2px #08777a;
+    box-shadow: 3px 3px 2px 2px #f3f7f7;
   }
   .cell {
-    height: 6em;
-    width: 9em;
+    height: 3em;
+    width: 3em;
   }
 
   .cell > .detail {
@@ -19,8 +22,8 @@
   .cell > .detail.open {
     display: block;
     position: absolute;
-    height: 8em;
-    width: 11em;
+    height: 5em;
+    width: 5em;
     background-color: rgb(19, 84, 128);
   }
 
@@ -31,66 +34,80 @@
   td.back-diag {
     font-style: italic;
   }
+
   td:hover {
     position: relative;
     top:-2px;
     left: 2px;
 
   }
+table {
+    border-collapse: collapse;
+}
 
-  
-
-  </style>
-</head>
-<title>曹植沛（xiaocao.cn）</title>
-<boday>
-<table border="1">
-<caption>我的课程表</caption>
+table, td, th {
+    border: 1px solid Cyan(70, 235, 235);
+    
+}
+</style>
+<body>
+                <h1 align="center">
+                   我的小课表
+                    </h1>
+                <table cellspacing="0" 
+            style="color:rgb(25, 82, 109)5);  font-size:16px; font-weight:bold; margin-left:225px; width:1080px; height:400px;text-align:center">
+               <tr  bgcolor="SlateBlue " style=" width:70px;height:50px" >
+                  <th  style=" width:50px;"></th>
+                  <th  
+                      style=" width:188px;">周一</th> 
+                  <th  style=" width:188px;">周二 </th>  
+                  <th style=" width:188px;">周三</th>	   
+                  <th style=" width:188px;">周四</th>  
+                  <th  style=" width:188px;">周五</th>   
+                  </tr>
 <tr>
-<td>周一</td>
-<td>周二</td>
-<td>周三</td>
-<td>周四</td>
-<td>周五</td>
-<td>周六</td>
-<td>周日</td>
-</tr>
-<tr>
-<td> web应用开发技术_01(西区第一公共教学楼C411)   				</td>
-<td>大学英语四级（A）_64(西区第一公共教学楼C221)   				</td>
-<td>管理信息系统_02(西区第一公共教学楼C105)</td>
-<td>  数据库原理及应用_01(西区第一公共教学楼B405) 				</td>
-<td>大学英语四级（A）_64(西区外语学院楼219)					</td>
+        <th bgcolor="snow">8：20</br>/</br>10: 00</th> 
+<td bgcolor="LightBlue"> web应用开发技术_01(西区第一公共教学楼C411)  				</td>
+<td bgcolor="DarkViolet">大学英语四级（A）_64(西区第一公共教学楼C221)   				</td>
+<td bgcolor="Thistle">管理信息系统_02(西区第一公共教学楼C105)</td>
+<td bgcolor="Pink">  数据库原理及应用_01(西区第一公共教学楼B405) 				</td>
+<td bgcolor="DarkViolet">大学英语四级（A）_64(西区外语学院楼219)					</td>
 <td>									</td>
 </tr>
 <tr>
-<td> 毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120) 		</td>
-<td> 管理科学基础_01(西区第一公共教学楼C411) ) </td>
-<td>毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120) 		</td>
-<td>  管理科学基础_01(西区第一公共教学楼C411)  				</td>
-<td>  运营管理_02(西区第一公共教学楼B405)					</td>
-<td>									</td>
-<td>									</td>
-</tr>
-<tr>
-<td> 管理信息系统_02(西区第一公共教学楼C105) 					</td>
-<td>  形势与政策2_41(西区第一公共教学楼C123)  					</td>
-<td> 会计学_01(西区第一公共教学楼B101)					</td>
-<td> 体育 								</td>
-<td> 毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120)  		</td>
+        <th bgcolor="snow">10：20</br>/</br>12：:00</th> 
+<td bgcolor="DarkOrange"> 毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120) 		</td>
+<td bgcolor="SlateBlue"> 管理科学基础_01(西区第一公共教学楼C411) ) </td>
+<td bgcolor="DarkOrange">毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120) 		</td>
+<td bgcolor="SlateBlue">管理科学基础_01(西区第一公共教学楼C411)  				</td>
+<td bgcolor="purple">  运营管理_02(西区第一公共教学楼B405)					</td>
 <td>									</td>
 <td>									</td>
 </tr>
 <tr>
-<td>    电子商务_01(西区第一公共教学楼B303) 				</td>
-<td>  数据库原理及应用_01(西区第一公共教学楼C109) 				</td>
+        <th bgcolor="snow">14：00</br>/</br>15：40</th>
+<td bgcolor="Thistle"> 管理信息系统_02(西区第一公共教学楼C105) 					</td>
+<td bgcolor="green">  形势与政策2_41(西区第一公共教学楼C123)  					</td>
+<td bgcolor="e91e6f"> 会计学_01(西区第一公共教学楼B101)					</td>
+<td bgcolor="lightgreen">体育 								</td>
+<td bgcolor="DarkOrange"> 毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120)  		</td>
+<td>									</td>
+<td>									</td>
+</tr>
+<tr>
+        <th bgcolor="snow">16:00</br>/</br>17：:40</th>
+<td bgcolor="e92ef6">    电子商务_01(西区第一公共教学楼B303) 				</td>
+<td bgcolor="Pink">  数据库原理及应用_01(西区第一公共教学楼C109) 				</td>
 <td>					</td>
-<td>   会计学_01(西区第一公共教学楼B101) 								</td>
+<td bgcolor="e91e6f">   会计学_01(西区第一公共教学楼B101) 								</td>
 <td>  		</td>
+</style>
+</body>
+</head>
+</html>
 <td>									</td>
 <td>									</td>
 </tr>
 
 </table>
-</boday>
-</html>
+
